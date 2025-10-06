@@ -1,3 +1,7 @@
+# docker build -t demo-spring-jpl:latest .
+# docker run --rm -p 8080:8080 demo-spring-jpl:latest
+
+
 # =========================
 # STAGE 1: BUILD (Maven)
 # =========================
