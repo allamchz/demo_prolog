@@ -11,9 +11,9 @@ public class DemoApplication {
 
     public static void main(String[] args) {
 
-        //SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
 
-        String filePath = "consult('operaciones.pl')";
+        String filePath = "consult('/opt/app/prolog/operaciones.pl')";
         System.out.println("Entra");
         Query consultQuery = new Query(filePath);
         System.out.println(filePath + " " + (consultQuery.hasSolution() ? "éxito" : "fallo"));
